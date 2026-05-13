@@ -1,0 +1,33 @@
+# =========================
+# Python & FastAPI Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.env
+
+# =========================
+# Machine Learning Artifacts
+# =========================
+*.pth
+*.pt
+*.onnx
+models/
+
+# =========================
+# React & Node Frontend
+# =========================
+node_modules/
+dist/
+build/
+.DS_Store
+
+# =========================
+# Secrets & API Keys
+# =========================
+# NEVER commit your Gemini API keys!
+.env
+.env.local

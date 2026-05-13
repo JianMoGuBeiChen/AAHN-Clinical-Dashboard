@@ -1,0 +1,14 @@
+# Web Framework & Server
+fastapi
+uvicorn
+python-multipart
+
+# Environment Variables
+python-dotenv
+
+# Medical Imaging & AI
+torch
+nibabel
+
+# LLM Integration
+google-genai

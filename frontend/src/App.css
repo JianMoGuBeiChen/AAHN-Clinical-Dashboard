@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  /* Flipped to a soft, clinical light gray background with dark text */
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard-header {
+  border-bottom: 1px solid #e2e8f0; /* Soft gray border */
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  padding-bottom: 1rem;
+  color: #1d4ed8; /* Professional Medical Blue */
+  font-size: 2.5rem; /* <-- ADD THIS LINE! Adjust up or down as needed */
+  letter-spacing: -0.5px; /* Optional: tightens the letters slightly for a sleeker look */
+}
+
+.dashboard-header p {
+  color: #64748b; /* Slate gray */
+  margin-top: 0.5rem;
+}
+
+.dashboard-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #334155;
+  margin-bottom: 1rem;
+}
+
+/* Dropzone Styling */
+.dropzone {
+  border: 2px dashed #3b82f6; /* Blue border */
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff; /* Pure white */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 1.5rem;
+}
+
+.dropzone:hover,
+.dropzone.active {
+  background-color: #eff6ff; /* Very light blue tint on hover */
+  border-color: #2563eb;
+}
+
+/* Image & Report Box Styling */
+.image-display-box,
+.report-box {
+  background-color: #ffffff; /* Pure white boxes */
+  border-radius: 8px;
+  min-height: 300px;
+  border: 1px solid #e2e8f0; /* Soft border */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Slight shadow for depth */
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.report-box {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.empty-state,
+.placeholder-text {
+  color: #64748b; /* Slate gray */
+  text-align: center;
+}
+
+.placeholder-text {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.process-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb; /* Strong blue button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+.process-btn:hover {
+  background-color: #1d4ed8; /* Darker blue on hover */
+}
