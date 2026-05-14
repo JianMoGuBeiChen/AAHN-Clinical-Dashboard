@@ -107,7 +107,7 @@ function App() {
           Clinical Radiology Dashboard
         </h1>
         <p className="text-gray-600 mt-2" style={{ textAlign: "center" }}>
-          Graph-TranFuse Ablation Model | CSE (IDD) Final Project
+          Graph-TranFuse Ablation Model | CSE (IDD) Exploratory Project
         </p>
       </header>
 
